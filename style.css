@@ -33,7 +33,7 @@ body, input {
     width: 2000px;
     top: -10%;
     right: 48%;
-    background-image: linear-gradient(to bottom, #4b0082, #491986, #472888, #47338a, #483d8b);
+    background: #000411;
     transform:  translateY(-50%);
     border-radius: 50%;
     z-index: 6;
@@ -97,7 +97,7 @@ form {
     outline: none;
     border: none;
     border-radius: 48px;
-    background-color: #4110b4;
+    background-color: #b10c43;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
@@ -106,7 +106,7 @@ form {
 }
 
 .btn:hover{
-    background-color: #521fc9;
+    background-color: #7c052d;
 }
 
 .social-text {
@@ -121,7 +121,6 @@ form {
 .social-icon {
     height: 46px;
     width: 46px;
-    border: 1px solid rgb(77, 77, 77);
     margin: 0 .5rem;
     display: flex;
     justify-content: center;
@@ -133,10 +132,6 @@ form {
     transition: all 0.5s;
 }
 
-.social-icon:hover {
-    color: #20dbc2;
-    border-color: #00bfa6;
-}
 
 /*Positioning sign in and sign up*/
 
@@ -269,10 +264,10 @@ form.sign-up-form {
     pointer-events: none;
 }
 
+
 .container.sign-up-mode .right-panel {
     pointer-events: all;
 }
-
 
 .container.sign-up-mode .signin-signup {
     left: 25%;
